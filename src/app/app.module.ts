@@ -18,6 +18,7 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import {TodoDataService} from './service/data/todo-data.service';
 import { TodoComponent } from './todo/todo.component';
 import {HttpIntercepterBasicAuthService} from './service/http/http-intercepter-basic-auth.service';
+import {BasicAuthenticaionService} from './service/basic-authenticaion.service';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import {HttpIntercepterBasicAuthService} from './service/http/http-intercepter-b
   ],
   providers: [
     HardcodedAuthenticaionService,
+    BasicAuthenticaionService,
     RouteGaurdService,
     WelcomeDataService,
     TodoDataService,
