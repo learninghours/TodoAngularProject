@@ -1,3 +1,11 @@
+
+# Code commit command
+
+1.Open CMD prompt 
+2.git add .
+3. git commit -m "comment"
+4. git push -u origin master
+
 # AngularDemo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.4.
